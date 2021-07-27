@@ -1,61 +1,39 @@
 # Project Title
-> Badges : // If your project has some badges such as CI/CD, you will need to insert them here
-
-## Project vision
-> Vision : // You will give a general vision of the project, what problem you are solving in this project
-
-## Project description
-> Description : //You describe the general logic of the project here
+> YouTube-Clone
 
 ## Screenshot (s)
-> Screenshots: // If your project has some UI, you will link the screenshot of the UI here
+![]()
 
 ## Built with
-> Built with : // You will specify the technologies you used to build this project such as languages, frameworks, or libararies, ...
 
-## Features
-> Features : // List of features, what a user will be able to do with this project. Eg: a user can signup
-
-## Deployments
-	* Live demo link //The link of deplyoment of your project
-	* Documentation link //Link to documentation of this project
-
-## API Endpoints Specifications
-> If this project is a backend project which exposes some APIs. List all APIs here
-	* Root API
-	* List of all APIs
+- HTML5 && CSS3
 
 ## Tools
-> Tools : //List of all tools you used building this projects. Example: Code editor, CI/CD tools, Testing tools, deplyoment tools, ...
+> The List of all tools I used building this projects.
 
-## Running and testing it locally
-> Elaborate how this project could be tested and run on one's local computer
+  -The only tool you can need here is Just a  compiler
+
+  * Visual Studio Code
 
 ### Prerequisites
+
 > What should I have already to run this project locally?
+  
+  -it's better to have a compiler in your PC or just use Notepad 
 
 ### Setup
 > How should setup this project on my local computer?
 
-### Usage
-> How to use it? //Which command should I run or how to start this project?
+  - This is an HTML and CSS3 proect it's easy to run it through your local PC and here are some steps:
+	clone this repo by typing `git clone https://github.com/jonathan1965/html-css-road-map.git` after that open the `index.html` file in your prefer Browser.
 
-### Tests
-> How to run tests locally?
-## Contributions
-> How should I contribute? //Specify steps to follow inorder to contribute to this project, if it is allowed.
+## Author 
 
-## Acknowledgement (s)
-> If you have used some resources from someone, or instution, or if you got motivations from somewhere, you should show them the acknowlodgement
+👤 **Kalisa JOnathan**
 
-## Author (s)
-> Write your name here and list any other one who helped you during this project
+    - GitHub: [@jonathan1965](https://github.com/jonathan1965)
 
-	* [GitHub username](github-link)
-
-	* [LinkedIn username](linkedin-profile-link)
-
-	* [Twitter username](twitter-profile-link)
-
+    - GitHub: [@Jonathan Kalisa](https://www.linkedin.com/in/jonathan-kalisa-22756b195/)
+	
 
 ===> You can find this readme file template [on this link](https://github.com/nezago/nezago-guidelines/wiki/Readme-file-template)

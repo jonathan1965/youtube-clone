@@ -16,16 +16,16 @@
 <body>
 
     <header>
-        <nav class="nav">
+        <nav class="nav display-flex display-flex-space">
 
-            <div class="nav-menu1">
+            <div class="nav-menu1 display-flex display-flex-center">
                 <img class="main-menu" src="/src/images/main-menu.svg" alt="">
                 <img class="youtube-logo" src="/src/images/youtube-logo-white.svg" alt="">
             </div>
 
-            <div class="nav-menu2">
+            <div class="display-flex display-flex-center">
                 <label for="search"></label>
-                <input class="search-input" type="text" name="search" id="" placeholder="search">
+                <input class="search-input" type="text" name="search" id="search" placeholder="search">
                 <div class="video-icon">
                     <img class="video-search" src="/src/images/video-search.svg" alt="">
                 </div>
@@ -33,8 +33,8 @@
 
             </div>
 
-            <div class="nav-menu3">
-                <i class="fal fa-video-plus "></i>
+            <div class="nav-menu3 display-flex display-flex-center">
+                <i class="fal fa-video-plus prim"></i>
                 <img class="main-menu" src="/src/images/mega-menu.svg" alt="">
                 <i class="fal fa-bell-plus "></i>
                 <img class="user-img" src="/src/images/ign-logo.jpg" alt="">
@@ -45,15 +45,14 @@
         </nav>
     </header>
    
-    <section class="content-body">
-
+    <section class="content-body display-flex ">
         <!-- main-body -->
-        <div class="main-body">
+        <div class="main-body fit-width">
             <iframe class="play-video" src="https://www.youtube.com/embed/tgbNymZ7vqY">
             </iframe>
             <p> How To clone YouTube page using HTMl and CSS </p>
 
-            <div class="time-frame">
+            <div class="display-flex display-flex-space">
                 <div class="time">
                     <p>456,568 views . Jan 2019</p>
                 </div>
@@ -70,53 +69,52 @@
 
             <div class="hr"></div>
         <!-- subscribe  -->
-            <div class="channel">
-                <div class="channel-name">
-                     <img src="/src/images/ign-logo.jpg" alt="" srcset="">
-                     <div class="names">
-                         <p>Jonathan</p>
-                         <span>456k subcribers</span>
-                    </div>
+            <div class="display-flex display-flex-space">
+                <div class="channel-name display-flex">
+                     <img src="/src/images/ign-logo.jpg" alt="image of ign-logo">
+                        <div class="names">
+                            <p>Jonathan</p>
+                            <span class="primary-color">456k subcribers</span>
+                        </div>
                 </div>
-
-                <div class="channel-sub">
-                    <p>Subscribed</p>
-                    <i class="fal fa-bell-plus "></i>
+                <div class="channel-sub display-flex">
+                    <p class="channel-Title">Subscribed</p>
+                    <i class="fal fa-bell-plus primary-color"></i>
               </div>
          </div>
 
          <div class="titles">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Nobis commodi harum ipsam necessitatibus soluta obcaecati.</p>
+            <p class="tittle-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Nobis commodi harum ipsam necessitatibus soluta obcaecati.</p>
         </div>
         <div class="show-more">
-            <p>show more</p>
+            <p class="show-title">show more</p>
         </div>
          
         <div class="comment">
-            <div class="comment-num">
-               <p>1,577 comments</p>
+            <div class="comment-title display-flex ">
+               <p class="comment-num">1,577 comments</p>
                <img src="/src/images/sort.svg" alt=""> <span> sort by</span>
             </div>
 
-            <div class="comment-sort">
-                    <img src="/src/images/user3.jpg" alt="" srcset="">
+            <div class="comment-sort display-flex">
+                    <img src="/src/images/user3.jpg" alt="">
                     <div class="names">
-                        <span>Add pablic comment...</span>
-                        <div class="hr2"></div>
+                        <span class="primary-color">Add pablic comment...</span>
+                        <div class="hr-line"></div>
                    </div>
             </div>
         </div>     
        <!-- comment -->
        <div class="whole-comment">
-                <div class="single-comment">
+                <div class="single-comment display-flex">
                         <img src="/src/images/user1.jpg" alt="">
                         <div class="full-commnet">
-                            <p>Technical waves <span>1 year ago</span></p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam adipisicing Nobis adsicing.</p> 
+                            <p class="part1">Technical waves <span>1 year ago</span></p>
+                            <p class="part1">Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam adipisicing Nobis adsicing.</p> 
                             <div class="comment-icon">
                                 <i class="fas fa-thumbs-up"> 120k</i>
                                 <i class="fas fa-thumbs-down"> 1.2k</i>
-                                <span>Reply</span>
+                                <span class="primary-color">Reply</span>
                             </div> 
                         </div>
                         <div>
@@ -125,19 +123,19 @@
                 </div>  
                 <div class="reply-part">
                     <img src="/src/images/blue-dropdown.svg" alt="">
-                    <span>View 21 replies</span>
+                    <span class="primary-color">View 21 replies</span>
                 </div>
 
         
-            <div class="single-comment">
+            <div class="single-comment display-flex">
                 <img src="/src/images/user8.jpg" alt="">
                 <div class="full-commnet">
-                    <p>Technical waves <span>1 year ago</span></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam.</p> 
+                    <p class="part1">Technical waves <span>1 year ago</span></p>
+                    <p class="part1">Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam.</p> 
                     <div class="comment-icon">
                         <i class="fas fa-thumbs-up"> 120k</i>
                         <i class="fas fa-thumbs-down"> 1.2k</i>
-                        <span>Reply</span>
+                        <span class="primary-color">Reply</span>
                     </div> 
                 </div>
                 <div>
@@ -146,38 +144,38 @@
         </div>  
             <div class="reply-part">
                 <img src="/src/images/blue-dropdown.svg" alt="">
-                <span>View 21 replies</span>
+                <span class="primary-color">View 21 replies</span>
             </div>
 
-            <div class="single-comment">
+            <div class="single-comment display-flex">
                 <img src="/src/images/user4.jpg" alt="">
                 <div class="full-commnet">
-                    <p>Technical waves <span>1 year ago</span></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam dipisicing Nobis adsicing.</p> 
+                    <p class="part1">Technical waves <span>1 year ago</span></p>
+                    <p class="part1">Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam dipisicing Nobis adsicing.</p> 
                     <div class="comment-icon">
                         <i class="fas fa-thumbs-up"> 120k</i>
                         <i class="fas fa-thumbs-down"> 1.2k</i>
-                        <span>Reply</span>
+                        <span class="primary-color">Reply</span>
                     </div> 
                 </div>
                 <div>
                     
                 </div> 
         </div>  
-            <div class="reply-part">
+            <div class="reply-part display-flex">
                 <img src="/src/images/blue-dropdown.svg" alt="">
-                <span>View 21 replies</span>
+                <span class="primary-color">View 21 replies</span>
             </div>
 
-            <div class="single-comment">
+            <div class="single-comment display-flex">
                 <img src="/src/images/user5.jpg" alt="">
                 <div class="full-commnet">
-                    <p>Technical waves <span>1 year ago</span></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam.</p> 
+                    <p class="part1">Technical waves <span>1 year ago</span></p>
+                    <p class="part1">Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam.</p> 
                     <div class="comment-icon">
                         <i class="fas fa-thumbs-up"> 120k</i>
                         <i class="fas fa-thumbs-down"> 1.2k</i>
-                        <span>Reply</span>
+                        <span class="primary-color">Reply</span>
                     </div> 
                 </div>
                 <div>
@@ -186,18 +184,18 @@
         </div>  
             <div class="reply-part">
                 <img src="/src/images/blue-dropdown.svg" alt="">
-                <span>View 21 replies</span>
+                <span class="primary-color">View 21 replies</span>
             </div>
 
-            <div class="single-comment">
+            <div class="single-comment display-flex">
                 <img src="/src/images/user6.jpg" alt="">
                 <div class="full-commnet">
-                    <p>Technical waves <span>1 year ago</span></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam dipisicing Nobis adsicing.</p> 
+                    <p class="part1">Technical waves <span>1 year ago</span></p>
+                    <p class="part1">Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam dipisicing Nobis adsicing.</p> 
                     <div class="comment-icon">
                         <i class="fas fa-thumbs-up"> 120k</i>
                         <i class="fas fa-thumbs-down"> 1.2k</i>
-                        <span>Reply</span>
+                        <span class="primary-color">Reply</span>
                     </div> 
                 </div>
                 <div>
@@ -209,35 +207,35 @@
                 <span>View 21 replies</span>
             </div>
 
-            <div class="single-comment">
+            <div class="single-comment display-flex">
                 <img src="/src/images/user7.jpg" alt="">
                 <div class="full-commnet">
-                    <p>Technical waves <span>1 year ago</span></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam.</p> 
+                    <p class="part1">Technical waves <span>1 year ago</span></p>
+                    <p class="part1">Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam.</p> 
                     <div class="comment-icon">
                         <i class="fas fa-thumbs-up"> 120k</i>
                         <i class="fas fa-thumbs-down"> 1.2k</i>
-                        <span>Reply</span>
+                        <span class="primary-color">Reply</span>
                     </div> 
                 </div>
                 <div>
                     
                 </div> 
         </div>  
-            <div class="reply-part">
+            <div class="reply-part display-flex">
                 <img src="/src/images/blue-dropdown.svg" alt="">
-                <span>View 21 replies</span>
+                <span class="primary-color">View 21 replies</span>
             </div>
 
             <div class="single-comment">
                 <img src="/src/images/user8.jpg" alt="">
                 <div class="full-commnet">
-                    <p>Technical waves <span>1 year ago</span></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam dipisicing Nobis adsicing.</p> 
+                    <p class="part1">Technical waves <span>1 year ago</span></p>
+                    <p class="part1">Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam dipisicing Nobis adsicing.</p> 
                     <div class="comment-icon">
                         <i class="fas fa-thumbs-up">120k</i>
                         <i class="fas fa-thumbs-down"> 1.2k</i>
-                        <span>Reply</span>
+                        <span class="primary-color">Reply</span>
                     </div> 
                 </div>
                 <div>
@@ -249,15 +247,15 @@
                 <span>View 21 replies</span>
             </div>
 
-            <div class="single-comment">
+            <div class="single-comment display-flex">
                 <img src="/src/images/user9.jpg" alt="">
                 <div class="full-commnet">
-                    <p>Technical waves <span>1 year ago</span></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam.</p> 
+                    <p class="part1">Technical waves <span>1 year ago</span></p>
+                    <p class="part1">Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam.</p> 
                     <div class="comment-icon">
                         <i class="fas fa-thumbs-up"> 120k</i>
                         <i class="fas fa-thumbs-down"> 1.2k</i>
-                        <span>Reply</span>
+                        <span class="primary-color">Reply</span>
                     </div> 
                 </div>
                 <div>
@@ -269,15 +267,15 @@
                 <span>View 21 replies</span>
             </div>
 
-            <div class="single-comment">
+            <div class="single-comment display-flex">
                 <img src="/src/images/user10.jpg" alt="">
                 <div class="full-commnet">
-                    <p>Technical waves <span>1 year ago</span></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam dipisicing Nobis adsicing.</p> 
+                    <p class="part1">Technical waves <span>1 year ago</span></p>
+                    <p class="part1">Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis commodi harum ipsam dipisicing Nobis adsicing.</p> 
                     <div class="comment-icon">
                         <i class="fas fa-thumbs-up"> 120k</i>
                         <i class="fas fa-thumbs-down"> 1.2k</i>
-                        <span>Reply</span>
+                        <span class="primary-color">Reply</span>
                     </div> 
                 </div>
                 <div>
@@ -286,7 +284,7 @@
         </div>  
             <div class="reply-part">
                 <img src="/src/images/blue-dropdown.svg" alt="">
-                <span>View 21 replies</span>
+                <span class="primary-color">View 21 replies</span>
             </div>
 
 
@@ -296,8 +294,8 @@
  <!-- End  of subscribe  -->
 
 
-        <div class="sab-video">
-            <div class="items">
+        <div class="sab-video fit-width">
+            <div class="items display-flex">
                 <a class="active" href="#">all</a>
                 <a href="#">css</a>
                 <a href="#">angular</a>
@@ -306,13 +304,13 @@
             </div>
 
             <div class="items-video">
-                <div class="video">
+                <div class="video display-flex">
                     <img src="/src/images/5.jpg" alt="">
                     <div class="video-articles">
                         <p>How To clone YouTube page <br> using HTMl and CSS</p>
                         <p>Freecode camp</p>
                         <p>125k views . 8 month ago</p>
-                        <div class="times1">
+                        <div class="display-flex">
                             <p class="new">New</p>
                             <p class="time-video">21:34</p>
                             
@@ -324,13 +322,13 @@
             </div>
 
             <div class="items-video">
-                <div class="video">
+                <div class="video display-flex ">
                     <img src="/src/images/2.jpg" alt="">
                     <div class="video-articles">
                         <p>How To clone YouTube page <br> using HTMl and CSS</p>
                         <p>Freecode camp</p>
                         <p>125k views . 8 month ago</p>
-                        <div class="times1">
+                        <div class="display-flex">
                             <p class="new">New</p>
                             <p class="time-video">21:34</p>
                         </div>
@@ -340,13 +338,13 @@
             </div>
 
             <div class="items-video">
-                <div class="video">
+                <div class="video display-flex">
                     <img src="/src/images/3.jpg" alt="">
                     <div class="video-articles">
                         <p>How To clone YouTube page <br> using HTMl and CSS</p>
                         <p>Freecode camp</p>
                         <p>125k views . 8 month ago</p>
-                        <div class="times1">
+                        <div class="display-flex">
                             <p class="new">New</p>
                             <p class="time-video">21:34</p>
                         </div>
@@ -356,13 +354,13 @@
             </div>
 
             <div class="items-video">
-                <div class="video">
+                <div class="video display-flex">
                     <img src="/src/images/8.jpg" alt="">
                     <div class="video-articles">
                         <p>How To clone YouTube page <br> using HTMl and CSS</p>
                         <p>Freecode camp</p>
                         <p>125k views . 8 month ago</p>
-                        <div class="times1">
+                        <div class="display-flex">
                             <p class="new">New</p>
                             <p class="time-video">21:34</p>
                         </div>
@@ -372,13 +370,13 @@
             </div>
 
             <div class="items-video">
-                <div class="video">
+                <div class="video display-flex">
                     <img src="/src/images/5.jpg" alt="">
                     <div class="video-articles">
                         <p>How To clone YouTube page <br> using HTMl and CSS</p>
                         <p>Freecode camp</p>
                         <p>125k views . 8 month ago</p>
-                        <div class="times1">
+                        <div class="display-flex">
                             <p class="new">New</p>
                             <p class="time-video">21:34</p>
                         </div>
