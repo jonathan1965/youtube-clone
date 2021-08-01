@@ -2,7 +2,7 @@
 > YouTube-Clone
 
 ## Screenshot (s)
-![]()
+![youtube-shots](https://user-images.githubusercontent.com/57622276/127785899-c3ee24af-2735-4dcb-a2e8-db4e6045812a.JPG)
 
 ## Built with
 
@@ -29,11 +29,11 @@
 
 ## Author 
 
-👤 **Kalisa JOnathan**
+👤 **Kalisa Jonathan**
 
     - GitHub: [@jonathan1965](https://github.com/jonathan1965)
 
-    - GitHub: [@Jonathan Kalisa](https://www.linkedin.com/in/jonathan-kalisa-22756b195/)
+    - GitHub: [@Jonathan Kalisa](https://www.linkedin.com/in/jonathan-kalisa/)
 	
 
 ===> You can find this readme file template [on this link](https://github.com/nezago/nezago-guidelines/wiki/Readme-file-template)
