@@ -31,9 +31,5 @@
 
 👤 **Kalisa Jonathan**
 
-    - GitHub: [@jonathan1965](https://github.com/jonathan1965)
-
-    - GitHub: [@Jonathan Kalisa](https://www.linkedin.com/in/jonathan-kalisa/)
-	
-
-===> You can find this readme file template [on this link](https://github.com/nezago/nezago-guidelines/wiki/Readme-file-template)
+- GitHub: [@jonathan1965](https://github.com/jonathan1965)
+- GitHub: [@Jonathan Kalisa](https://www.linkedin.com/in/jonathan-kalisa/)
